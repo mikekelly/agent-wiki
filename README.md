@@ -6,7 +6,7 @@ A HAL+JSON wiki API designed for AI agent exploration. It serves as a reference 
 
 Most API integrations today follow a pattern: a human reads documentation, writes deterministic code, and ships it. The API's capabilities are frozen into that code at write time. If the API adds a new endpoint, the integration doesn't notice.
 
-Hypermedia APIs (HATEOAS) were designed to solve this — clients follow links at runtime instead of hardcoding URLs. But the approach never gained traction because traditional clients couldn't reason about unfamiliar link relations. They need to know in advance what `wiki:create-page` means and what to send.
+Hyperlinked APIs were designed to solve this — clients follow links at runtime instead of hardcoding URLs. But the approach never gained traction because traditional clients couldn't reason about unfamiliar link relations. They need to know in advance what `wiki:create-page` means and what to send.
 
 LLMs change this. An agent can:
 
